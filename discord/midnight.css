@@ -622,33 +622,6 @@ button.button_dd4f85 /* small buttons */,
     margin-top: 32px;
 } */
 
-/* top corner title */
-[class^='wordmarkWindows'] {
-	padding: 4px var(--spacing);
-}
-[class^='wordmarkWindows'] > svg {
-	display: none;
-}
-[class^='wordmarkWindows']::after {
-	content: var(--corner-text);
-	display: block;
-	position: relative;
-	height: 16px;
-	line-height: 16px;
-	font-family: var(--font);
-	font-size: 13px;
-	font-weight: 900;
-	color: var(--text-5);
-	transform: scaleX(1.2);
-	margin-left: 6px;
-}
-
-/* top bar height */
-[class^='typeWindows'] {
-	height: calc(var(--spacing) + 12px);
-	margin: 0;
-}
-
 /* custom dm button moon icon */
 .childWrapper_f90abb > svg:not(.favoriteIcon_dcc7a4) {
 	display: var(--discord-icon);
