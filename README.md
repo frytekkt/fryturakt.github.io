@@ -1,0 +1,1 @@
+# fryturakt.github.io
